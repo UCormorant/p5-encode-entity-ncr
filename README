@@ -35,7 +35,7 @@ Alternatively, to install with Module::Build, you can use the following commands
 DEPENDENCIES
 
 Encode::Entity::NCR is an Encoding module to represent HTML/XML
-character references like "&#x5b9f;" or "&#23455;".
+numeric character references like "&#x5b9f;" or "&#23455;".
 
 
 COPYRIGHT AND LICENCE

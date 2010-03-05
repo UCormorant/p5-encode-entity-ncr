@@ -73,7 +73,7 @@ Encode::Entity::NCR - Numeric character reference encoding
 =head1 DESCRIPTION
 
 Encode::Entity::NCR is an Encoding module to represent HTML/XML
-character references like "&#x5b9f;" or "&#23455;".
+numeric character references like "&#x5b9f;" or "&#23455;".
 
 =head1 AUTHOR
 
