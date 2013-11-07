@@ -1,8 +1,0 @@
-Build.PL
-Changes
-MANIFEST
-Makefile.PL
-README
-lib/Encode/Entity/NCR.pm
-t/t.t
-META.yml                                 Module meta-data (added by MakeMaker)

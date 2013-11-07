@@ -37,6 +37,8 @@ sub encode($$;$){
 1;
 __END__
 
+=encoding utf-8
+
 =head1 NAME
 
 Encode::Entity::NCR - Numeric character reference encoding
@@ -58,16 +60,16 @@ Encode::Entity::NCR - Numeric character reference encoding
 
   # decode
   $utf8 = $ncr = "&#x6570;&#x5024;&#x5b9f;&#20307;&#21442;&#29031;";
-  $utf8 =~ s/&#([Xx])?([\dA-Fa-f]+);/chr($1?hex $2:$2)/eg; # ”’lÀ‘ÌQÆ
-  $utf8 = decode("Entity-NCR", $ncr);                      # ”’lÀ‘ÌQÆ
+  $utf8 =~ s/&#([Xx])?([\dA-Fa-f]+);/chr($1?hex $2:$2)/eg; # æ•°å€¤å®Ÿä½“å‚ç…§
+  $utf8 = decode("Entity-NCR", $ncr);                      # æ•°å€¤å®Ÿä½“å‚ç…§
 
   $utf8 = $ncr;
-  $utf8 =~ s/&#(\d+);/chr $1/eg;          # &#x6570;&#x5024;&#x5b9f;‘ÌQÆ
-  $utf8 = decode("Entity-NCR-Dec", $ncr); # &#x6570;&#x5024;&#x5b9f;‘ÌQÆ
+  $utf8 =~ s/&#(\d+);/chr $1/eg;          # &#x6570;&#x5024;&#x5b9f;ä½“å‚ç…§
+  $utf8 = decode("Entity-NCR-Dec", $ncr); # &#x6570;&#x5024;&#x5b9f;ä½“å‚ç…§
 
   $utf8 = $ncr;
-  $utf8 =~ s/&#[Xx]([\dA-Fa-f]+);/chr hex $1/eg; # ”’lÀ&#20307;&#21442;&#29031;
-  $utf8 = decode("Entity-NCR-Hex", $ncr);        # ”’lÀ&#20307;&#21442;&#29031;
+  $utf8 =~ s/&#[Xx]([\dA-Fa-f]+);/chr hex $1/eg; # æ•°å€¤å®Ÿ&#20307;&#21442;&#29031;
+  $utf8 = decode("Entity-NCR-Hex", $ncr);        # æ•°å€¤å®Ÿ&#20307;&#21442;&#29031;
 
 
 =head1 DESCRIPTION
@@ -75,12 +77,17 @@ Encode::Entity::NCR - Numeric character reference encoding
 Encode::Entity::NCR is an Encoding module to represent HTML/XML
 numeric character references like "&#x5b9f;" or "&#23455;".
 
+=head1 BUGS AND LIMITATIONS
+
+Please report any bugs or feature requests to
+L<https://github.com/UCormorant/p5-encode-entitiy-ncr/issues>
+
 =head1 AUTHOR
 
-Uchimata E<lt>cheap.sheep.u@gmail.comE<gt>
+U=Cormorant E<lt>u@chimata.orgE<gt>
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+it under the same terms as Perl itself. See L<perlartistic>.
 
 =head1 SEE ALSO
 

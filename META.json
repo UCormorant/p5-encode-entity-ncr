@@ -1,0 +1,71 @@
+{
+   "abstract" : "Numeric character reference encoding",
+   "author" : [
+      "U=Cormorant <u@chimata.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.8.3, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Encode-Entity-NCR",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Simple" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/UCormorant/Encode-Entity-NCR/issues"
+      },
+      "homepage" : "https://github.com/UCormorant/Encode-Entity-NCR",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/UCormorant/Encode-Entity-NCR.git",
+         "web" : "https://github.com/UCormorant/Encode-Entity-NCR"
+      }
+   },
+   "version" : "0.0.1",
+   "x_contributors" : [
+      "Uchimata <cheap.sheep.u@gmail.com>"
+   ]
+}
