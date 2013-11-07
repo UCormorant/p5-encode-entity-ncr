@@ -1,7 +1,7 @@
 package Encode::Entity::NCR;
 
 use strict;
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 use base qw(Encode::Encoding);
 use Encode qw(:fallbacks);
@@ -80,7 +80,7 @@ numeric character references like "&#x5b9f;" or "&#23455;".
 =head1 BUGS AND LIMITATIONS
 
 Please report any bugs or feature requests to
-L<https://github.com/UCormorant/p5-encode-entitiy-ncr/issues>
+L<https://github.com/UCormorant/p5-encode-entity-ncr/issues>
 
 =head1 AUTHOR
 

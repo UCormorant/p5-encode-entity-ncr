@@ -40,7 +40,7 @@ numeric character references like "&\#x5b9f;" or "&\#23455;".
 # BUGS AND LIMITATIONS
 
 Please report any bugs or feature requests to
-[https://github.com/UCormorant/p5-encode-entitiy-ncr/issues](https://github.com/UCormorant/p5-encode-entitiy-ncr/issues)
+[https://github.com/UCormorant/p5-encode-entity-ncr/issues](https://github.com/UCormorant/p5-encode-entity-ncr/issues)
 
 # AUTHOR
 

@@ -55,16 +55,16 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/UCormorant/Encode-Entity-NCR/issues"
+         "web" : "https://github.com/UCormorant/p5-encode-entity-ncr/issues"
       },
-      "homepage" : "https://github.com/UCormorant/Encode-Entity-NCR",
+      "homepage" : "https://github.com/UCormorant/p5-encode-entity-ncr",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/UCormorant/Encode-Entity-NCR.git",
-         "web" : "https://github.com/UCormorant/Encode-Entity-NCR"
+         "url" : "git://github.com/UCormorant/p5-encode-entity-ncr.git",
+         "web" : "https://github.com/UCormorant/p5-encode-entity-ncr"
       }
    },
-   "version" : "0.0.1",
+   "version" : "0.0.2",
    "x_contributors" : [
       "Uchimata <cheap.sheep.u@gmail.com>"
    ]
