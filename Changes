@@ -1,5 +1,10 @@
 Revision history for Encode-Entity-NCR
 
+{{$NEXT}}
+
+    - minilize
+    - fix POD encoding (sjis -> utf8)
+    - fix author mail address
+
 0.0.1  Fri Mar  5 22:39:30 2010
        Initial release.
-
